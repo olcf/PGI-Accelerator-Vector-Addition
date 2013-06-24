@@ -1,5 +1,6 @@
-VecAdd.f90 Example
-==================
+PGI Accelerator Tutorial
+========================
+## Vector Addition Example
 
 To compile and run this example, you will need to modify `submit.pbs` and replace "abc123" with your project id. After that, simply type the following commands in this directory
 
