@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -A abc123
+#PBS -N vec_add_pgi
+#PBS -j oe
+#PBS -l walltime=0:00:30,nodes=1
+#PBS -l gres=widow2%widow3
+cd /tmp/work/$USER
+date
+aprun -n 1 -N 1 ./vecAdd.out
