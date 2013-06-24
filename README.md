@@ -7,8 +7,8 @@ To compile and run this example, you will need to modify `submit.pbs` and replac
 * module load PrgEnv-pgi
 * make
 
-##### Output
-When you have successfully compiled and run the example program, you should see output like the following
+#### Output
+When you have successfully compiled and run the example program, you should see output like the following:
 
     Thu Jun 20 12:53:15 EDT 2013
      final result:     1.000000    
