@@ -1,12 +1,15 @@
 PGI Accelerator Tutorial
 ========================
-## Vector Addition Example
 
-To compile and run this example, you will need to modify `submit.pbs` and replace "abc123" with your project id. After that, simply type the following commands in this directory
+To compile and run this vector addition example, you will need to modify `submit.pbs` and replace "abc123" with your project id. After that, simply type the following commands inside this directory:
 
-* module load cudatoolkit
-* module load PrgEnv-pgi
-* make
+```bash
+module load cudatoolkit
+module load PrgEnv-pgi
+make
+```
+
+The first two commands will load the CUDA toolkit and the PGI Fortran compiler, while the last command will execute statements in the `Makefile` that will build the code and submit it to the default queue on TITAN.
 
 #### Output
 When you have successfully compiled and run the example program, you should see output like the following:
